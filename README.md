@@ -1,6 +1,11 @@
 # 📊 End-to-End Sales & Profit Analysis with SQL & Power BI
 
+![Data](./Images/Data_Architecture.jpg)
+
 ## 🔹 Overview
+
+![Overview](./Images/Dashboard/1.Overview.jpg)
+
 This is an **end-to-end data analytics project** that takes raw sales data through the full analytics lifecycle — from **SQL-based data cleaning and exploration** to an **interactive Power BI dashboard**.  
 The aim is to uncover trends, patterns, and insights to drive better business decisions.
 
