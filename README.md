@@ -31,7 +31,7 @@ The aim is to uncover trends, patterns, and insights to drive better business de
      - Which product categories generate the highest profit margins?  
      - How do sales trends vary across months and regions?  
      - How Discount rate affects Profits?   
-   - 📂 [View all EDA Questions & SQL Queries](sql/Exploratory Data Analysis/)   
+   - 📂 [Exploratory Data Analysis](./SQL/Exploratory%20Data%20Analysis)  
 
 4. **Data Modeling in Power BI**
    - Designed star schema with fact and dimension tables  
