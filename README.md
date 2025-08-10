@@ -1,5 +1,7 @@
 # 📊 End-to-End Sales & Profit Analysis with SQL & Power BI
 
+## 🔹 Data Architecture
+
 ![Data](./Images/Data_Architecture.jpg)
 
 ## 🔹 Overview
