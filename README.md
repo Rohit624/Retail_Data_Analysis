@@ -61,17 +61,17 @@ The aim is to uncover trends, patterns, and insights to drive better business de
 ## 📷 Dashboard Preview
 
 ### Overview Page
-![Overview Dashboard](./Image/Dashboard/1.Overview.jpg)
+![Overview Dashboard](./Images/Dashboard/1.Overview.jpg)
 
 ### Sales and Profit Analysis
-![Sales Analysis](./Image/Dashboard/2.Trend.jpg)
+![Sales Analysis](./Images/Dashboard/2.Trend.jpg)
 
 ### Product Analysis
-![Profit Analysis](./Image/Dashboard/3.Product.jpg)
+![Profit Analysis](./Images/Dashboard/3.Product.jpg)
 
 ### Customer Insights
-![Customer Insights](./Image/Dashboard/4.Customers.jpg)
+![Customer Insights](./Images/Dashboard/4.Customers.jpg)
 
 ### Geographical Performance
-![Category Performance](./Image/Dashboard/5.Geographics.jpg)
+![Category Performance](./Images/Dashboard/5.Geographics.jpg)
 
