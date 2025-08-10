@@ -15,33 +15,46 @@ The aim is to uncover trends, patterns, and insights to drive better business de
 ---
 
 ## 📌 Project Workflow
-1. **Data Preparation in SQL**
+
+1. **Data Acquisition & Import**  
+   - Imported raw sales transaction data into MySQL.
+
+2. **Data Preparation in SQL**
    - Imported raw sales data into MySQL  
-   - Removed duplicates and standardized values  
-   - Created calculated columns like Profit Margin, Sales Category, etc.  
+   - Handled Nulls and Data inconsistency
+   - Removed duplicates and standardized values
+   - Normalizing Table into Dimensions and Fact Tables. 
 
-2. **Exploratory Data Analysis (EDA)**
-   - Aggregated sales and profit by category, region, and customer segment  
-   - Identified seasonal trends and high/low-performing products  
-   - Used SQL GROUP BY, CTEs, and window functions for deeper analysis  
+3. **Exploratory Data Analysis (MySQL)**  
+   - Answered **30 business questions** using SQL queries to explore patterns, trends, and anomalies.  
+   - Example questions:  
+     - Which product categories generate the highest profit margins?  
+     - How do sales trends vary across months and regions?  
+     - How Discount rate affects Profits?   
+   - 📂 [View all EDA Questions & SQL Queries](sql/EDA_Questions.sql)   
 
-3. **Data Modeling in Power BI**
+4. **Data Modeling in Power BI**
    - Designed star schema with fact and dimension tables  
    - Created a Date table for time intelligence  
-   - Wrote DAX measures for KPIs (YTD Sales, Profit %, Growth Rate)  
+   - Wrote DAX measures for KPIs  
 
-4. **Dashboard Creation**
-   - **Sales Overview:** Total Sales, Profit, Orders trend  
-   - **Category Performance:** Contribution to revenue and profit  
-   - **Regional Insights:** Map visualization for geographic performance  
+5. **Dashboard Creation**
+   - **Overview:** Total Sales, Profit, Orders trend  
+   - **Trend Analysis:** Sales and Profit trend over years 
+   - **Product Analysis:** Sales and Profit Distribution among Product Categories
    - **Customer Segmentation:** Analysis by segments and loyalty  
+   - **Geographic Analysis:** Map visualization for geographic performance
+
+6. **Insights & Recommendations**  
+   - Derived actionable insights from dashboard analysis (see details below).
 
 ---
 
-## 💡 Key Insights
-- **High Margin Category:** Technology contributed ~35% of total profit despite lower sales volume.  
-- **Seasonality:** Sales spike during Q4, suggesting targeted seasonal marketing could boost profits.  
-- **Customer Concentration:** Top 20% of customers account for over 60% of total revenue.  
+### 💡 Key Insights from Dashboard
+- **Seasonal Sales Spike:** Revenue shows a significant increase in **Q4**, indicating strong seasonal demand.  
+- **Discount Strategy Impact:** Discounts above **20%** consistently result in losses, while minimal or no discounts maximize profitability.  
+- **Customer Trends:** New customer acquisition rates are declining, but **repeat purchase rates remain strong**, suggesting a loyal customer base.  
+- **High-Performing Product Line:** The **Copiers** sub-category generates the highest combined sales and profit despite lower sales volume, indicating a premium, high-margin product.  
 
 ---
 
@@ -50,10 +63,3 @@ The aim is to uncover trends, patterns, and insights to drive better business de
 Example:  
 ![Dashboard Overview](images/dashboard_overview.png)  
 ![Category Performance](images/category_performance.png)  
-
----
-
-## 🚀 How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/super-samplestore-powerbi-sql.git
